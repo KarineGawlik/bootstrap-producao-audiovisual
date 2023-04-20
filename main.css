@@ -1,0 +1,195 @@
+header img {
+    width: 300px;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #292f33;
+    width: 100%;
+    
+}
+#menu a {
+    color: #f29f05;
+    font-weight: bold;
+}
+
+section h2 {
+    font-family: 'Tribo', sans-serif;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 40px;
+}
+
+
+#logo {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+#investir-em-videos img {
+    width: 100%;
+}
+
+body {
+    background-color: #f29f05;
+}
+
+section {
+    margin-top: 32px;
+    text-align: justify;
+}
+
+section img {
+    align-items: center;
+}
+
+#contato {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+}
+
+#contato img {
+    width: 50px;
+}
+
+#contato {
+    background-color: #292f33;
+}
+
+#contato .col {
+    margin-top: 32px;
+    padding: 30px;
+    color: #fff;
+}
+
+#contato h2 {
+    color: #fff;
+    margin-top: 32px;
+}
+
+#quem-sou-eu {
+    margin-top: 32px;
+    display: block;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+footer {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+#quem-sou-eu img {
+    margin-bottom: 16px;
+}
+
+
+.card-img-overlay {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.card-text {
+    width: 100%;
+}
+
+.modal-body,
+.modal-header {
+    color: #292f33;
+}
+
+.servicos {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.body {
+    width: 100%;
+}
+
+#contato h2 {
+    margin-left: 8px;
+}
+#contato a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #quem-sou-eu img {
+        width: 200px;
+    }
+    
+    section h2 {
+        font-size: 25px;
+    }
+
+    #quem-sou-eu p {
+        font-size: 18px;
+    }
+    
+    section {
+        width: 100%;
+    }
+
+    #contato {
+        font-size: 14px;
+    }
+
+    #logo img {
+        width: 180px;
+    }
+
+    .servicos {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+    #quem-sou-eu img {
+        width: 200px;
+    }
+    
+    section h2 {
+        font-size: 25px;
+    }
+
+    #quem-sou-eu p {
+        font-size: 14px;
+    }
+    
+    section {
+        width: 100%;
+    }
+
+    #contato {
+        font-size: 14px;
+    }
+
+
+    #logo img {
+        width: 180px;
+
+    }
+    .servicos {
+        display: grid;
+        grid-template-columns: repeat(1, 80%);
+    }
+
+}
+
+
+
+
+
+
